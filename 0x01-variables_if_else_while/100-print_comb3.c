@@ -6,11 +6,13 @@
  */
 int main(void)
 {
-	int s, r;
+	int s;
+	int r;
 
 	for (s = 48; s < 57; s++)
 	{
 	for (r = 48; r <= 57; r++)
+	{
 	if (s > r || s == r)
 	continue;
 	else
