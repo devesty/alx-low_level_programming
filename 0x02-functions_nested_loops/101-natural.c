@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int i, sum = 0;
+	int n, sum = 0;
 
-	for (i = 0, i < 1024, i++)
+	for (n = 0, n < 1024, n++)
 	{
 	if ((n % 3) == 0 || (n % 5) == 0)
 	sum += n;
