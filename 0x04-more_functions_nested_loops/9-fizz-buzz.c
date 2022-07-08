@@ -8,23 +8,23 @@
  */
 int main(void)
 {
-	int num;
+	int x = 1;
 
-	while (num++ < 100)
-	if ((num % 3 == 0) && (num % 5 == 0))
-	printf("FizzBuzz ");
-	else if ((num % 3) == 0)
-	printf("Fizz ");
-	else if ((num % 5) == 0)
+	while (x < 101)
 	{
-	if (num != 100)
-	printf("Buzz ");
+	if (x % 3 == 0 && x % 5 == 0)
+	printf("%s", "FizzBuzz");
+	else if (x % 3 == 0)
+	printf("%s", "Fizz");
+	else if (x % 5 == 0)
+	printf("%s", "Buzz");
 	else
-	printf("Buzz");
+	printf("%d", x);
+	if (x != 100)
+	printf("%c", ' ');
+	x++;
 	}
-	else
-	printf("%d ", num);
-	printf("\n");
+	printf("%c", '\n');
 	return (0);
 }
 
