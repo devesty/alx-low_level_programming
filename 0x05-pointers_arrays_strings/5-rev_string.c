@@ -7,8 +7,10 @@
 void rev_string(char *s)
 {
 	char *t = s;
+
 	char new[1000];
 	short c = 0;
+
 	while (*s != '\0')
 	{
 	new[c] = *s;
