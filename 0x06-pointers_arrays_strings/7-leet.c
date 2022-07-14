@@ -16,7 +16,7 @@ char *leet(char *str)
 	{
 	for (n = 0; n < 10; n++)
 	if (str[m] == i[n])
-	s[m] = j[n];
+	str[m] = j[n];
 	}
 	return (str);
 
