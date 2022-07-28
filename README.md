@@ -1,2 +1,1 @@
-# alx-low_level_programming
-Introduction to C programming language
+This lesson is about debugging
